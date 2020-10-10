@@ -1,0 +1,133 @@
+@charset "ISO-8859-1";
+
+.bg{background:url(./image/bg.jpg) no-repeat;width:100%;height:100vh;}
+.bg2{background:url(./image/bg2.jpg) no-repeat;width:100%;height:100vh;}
+.bg3{background:url(./image/) no-repeat;width:100%;height:100vh;}
+.form-con{padding:30px 50px;margin-top:2vh;
+-webkit-box-shadow: 0px 1px 45px 19px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 45px 19px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 45px 19px rgba(0,0,0,0.75);}
+.form-con2{padding:50px 120px;margin-top:2vh;
+-webkit-box-shadow: 0px 1px 45px 19px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 45px 19px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 45px 19px rgba(0,0,0,0.75);}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 5px 20px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  padding: 0px;
+}
+
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+
+  
+  ##########
+  body {margin:0;height:2000px;}
+  
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 75px;
+    font-size: 30px;
+}
+#demo {
+background: #12DE8D;
+background: -moz-linear-gradient(left, #12DE8D 0%, #1FDAFF 38%, #FFFFFF 100%);
+background: -webkit-linear-gradient(left, #12DE8D 0%, #1FDAFF 38%, #FFFFFF 100%);
+background: linear-gradient(to right, #12DE8D 0%, #1FDAFF 38%, #FFFFFF 100%);
+}
+#demo {
+  
+  text-align: center;
+}
+
+#demo1 {
+background: #FF640B;
+background: -moz-linear-gradient(left, #FF640B 0%, #FF8A24 38%, #FFFFFF 100%);
+background: -webkit-linear-gradient(left, #FF640B 0%, #FF8A24 38%, #FFFFFF 100%);
+background: linear-gradient(to right, #FF640B 0%, #FF8A24 38%, #FFFFFF 100%);
+}
+#demo1 {
+  
+  text-align: center;
+}
+
